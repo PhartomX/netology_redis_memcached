@@ -64,4 +64,4 @@
 
 Запишите в Redis ключ key5 со значением типа "int" равным числу 5. Увеличьте его на 5, чтобы в итоге в значении лежало число 10.
 
-![img4](https://github.com/PhartomX/netology_redis_memcached/blob/main/img/img4.png)
+![img5](https://github.com/PhartomX/netology_redis_memcached/blob/main/img/img5.png)
