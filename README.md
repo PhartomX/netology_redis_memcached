@@ -30,6 +30,9 @@
 
 Запишите в memcached несколько ключей с любыми именами и значениями, для которых выставлен TTL 5.
 
+Введено 3 ключа: key1, key2 и key3.
+У key1 и key2 установлен TTL 5, у key3 - 20.
+Спустя 5 секунд key1 и key2 удалились из базы.
 
 `Cкриншот с результатом выполнения:`
 
@@ -41,7 +44,19 @@
 
 Запишите в Redis несколько ключей с любыми именами и значениями.
 
+Введено 3 ключа: key1, key2 и key3.
+
+`Cкриншот с результатом выполнения:`
+
 ![img3](https://github.com/PhartomX/netology_redis_memcached/blob/main/img/img3.png)
+
+
+Для примера зададим для key1 TTL 10:
+
+`Cкриншот с результатом выполнения:`
+
+![img4](https://github.com/PhartomX/netology_redis_memcached/blob/main/img/img4.png)
+
 
 ---
 
